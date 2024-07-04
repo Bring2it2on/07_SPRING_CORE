@@ -15,6 +15,6 @@ public class Application {
         // @Bean("이름") 을 이용해서 ID를 메소드명과 다르게 지정해줄 수 있다.
         MemberDTO member = context.getBean("member", MemberDTO.class);
 
-        System.out.println(member);
+        System.out.prin tln(member);
     }
 }

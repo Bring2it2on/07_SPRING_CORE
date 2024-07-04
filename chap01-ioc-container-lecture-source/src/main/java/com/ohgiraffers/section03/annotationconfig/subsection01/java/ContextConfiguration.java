@@ -1,22 +1,23 @@
 package com.ohgiraffers.section03.annotationconfig.subsection01.java;
 
 import com.ohgiraffers.common.MemberDAO;
+import com.ohgiraffers.common.MemberDTO;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
 
 
-// 1.
-
+//// 1.
 //@ComponentScan(basePackages = "com.ohgiraffers")
+
 //// 2.
 //@ComponentScan(basePackages = "com.ohgiraffers",
 //        excludeFilters = {
 //                // excludeFilters : 특정조건에 맞는 클래스를 스캔에서 제외시킨다.
 //            @ComponentScan.Filter(
 //                    // 1. 타입으로 설정
-////                    type = FilterType.ASSIGNABLE_TYPE,
-////                    classes = {MemberDAO.class}
+//                    type = FilterType.ASSIGNABLE_TYPE,
+//                    classes = {com.ohgiraffers.section02.javaconfig.ContextConfiguration.class}
 //                    // 2. 어노테이션 종류로 설정
 ////                    type = FilterType.ANNOTATION,
 ////                    classes = {org.springframework.stereotype.Component.class}
